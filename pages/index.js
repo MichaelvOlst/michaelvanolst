@@ -17,7 +17,7 @@ export default function Home() {
       }
 
 
-      public function getSkils() : array
+      public function getSkills() : array
       {
           return [
             new Skill('PHP'),
@@ -25,7 +25,7 @@ export default function Home() {
             new Skill('JavaScript'),
           ];
       }
-      
+
   }
   `;
 
