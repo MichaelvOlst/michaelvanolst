@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container mx-auto h-screen flex justify-center">
+      <div className="container mx-auto h-96 flex justify-center">
         <div className="flex justify-center items-center">
           <div className="mx-auto space-x-6 ">
             <h1 className="text-white text-4xl">Michael van Olst</h1>
