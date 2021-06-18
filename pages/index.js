@@ -10,6 +10,8 @@ export default function Home() {
   const codeString = `
   <?php
   
+  use Skill;
+
   class Michael van Olst 
   {
 
@@ -20,7 +22,7 @@ export default function Home() {
           I am Michael van Olst, ${dateOfBirth.getTime()} years old and living in the Netherlands.
           I am a PHP Developer with 5 years of relevant work experience and love to learn new things. 
           Over the years I have gained knowledge and experience in: PHP, Laravel, OOP, Reactjs, MySQL,
-          JavaScript, HTML, CSS, Linux, XML, Git and a bit of GoLang.
+          JavaScript, HTML, CSS, JSON, Linux, XML, Git and a bit of GoLang.
           Currently I am working for CM Specialist in Huizen where I am responsible for the backend for their in-house made CMS.
           I integrated a lot API's with the CMS e.g. Payment providers like Mollie, 
           Enterprise Resource Planning software like Exact Online and Snelstart and transporters like DHL, UPS and Sendcloud.  
@@ -32,10 +34,20 @@ export default function Home() {
       {
           return [
             new Skill('PHP'),
+            new Skill('OOP'),
             new Skill('MySql'),
             new Skill('Laravel'),
             new Skill('JavaScript'),
             new Skill('Next.js'),
+            new Skill('GIT'),
+            new Skill('CSS'),
+            new Skill('JSON'),
+            new Skill('XML'),
+            new Skill('HTML'),
+            new Skill('Linux'),
+            new Skill('Terminal'),
+            new Skill('VueJS'),
+            new Skill('ReactJS'),
           ];
       }
 
@@ -51,7 +63,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <SyntaxHighlighter language="php" style={vs2015}>
+      <SyntaxHighlighter language="php" style={vs2015} customStyle={{"width": "100%"}}>
       {codeString}
       </SyntaxHighlighter>
     </Layout>
