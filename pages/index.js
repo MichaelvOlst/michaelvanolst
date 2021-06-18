@@ -23,7 +23,7 @@ export default function Home() {
           JavaScript, HTML, CSS, Linux, XML, Git and a bit of GoLang.
           Currently I am working for CM Specialist in Huizen where I am responsible for the backend for their in-house made CMS.
           I integrated a lot API's with the CMS e.g. Payment providers like Mollie, 
-          Enterprise Resource Planning like Exact Online and Snelstart and Transporters like DHL, UPS and Sendcloud.  
+          Enterprise Resource Planning software like Exact Online and Snelstart and transporters like DHL, UPS and Sendcloud.  
           ";
       }
 
