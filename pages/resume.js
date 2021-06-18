@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <p>Hello this is the normal resume, you can also download this one if you'd like</p>
+      <p>Hello this is the normal resume, this page is still in construction.</p>
     </Layout>
         
   )
