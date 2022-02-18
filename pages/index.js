@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout from '../components/layout'
+import Head from 'next/head';
+import Link from 'next/link';
+import Layout from '../components/layout';
 import { FaCode } from 'react-icons/fa';
 
 export default function Home() {
@@ -23,6 +23,5 @@ export default function Home() {
         </div>
       </div>
     </Layout>
-        
-  )
+  );
 }

@@ -1,11 +1,9 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout from '../components/layout'
+import Head from 'next/head';
+import Layout from '../components/layout';
 
 export default function Home() {
-
    
-  return (
+  return (    
     <Layout>
       
       <Head>
@@ -17,5 +15,5 @@ export default function Home() {
       <p>Hello this is the normal resume, this page is still in construction.</p>
     </Layout>
         
-  )
+  );
 }

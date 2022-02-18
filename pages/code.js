@@ -1,14 +1,13 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout from '../components/layout'
+import Head from 'next/head';
+import Link from 'next/link';
+import Layout from '../components/layout';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { vs2015 } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import { FaArrowLeft } from 'react-icons/fa';
 
-
 export default function Home() {
 
-   const dateOfBirth = new Date('1989 09 16 GMT');
+  const dateOfBirth = new Date('1989 09 16 GMT');
 
   const codeString = `
   <?php
@@ -70,9 +69,9 @@ export default function Home() {
         </h1>
       </div>
       <SyntaxHighlighter language="php" style={vs2015}>
-      {codeString}
+        {codeString}
       </SyntaxHighlighter>
     </Layout>
         
-  )
+  );
 }
